@@ -184,6 +184,7 @@ var TEST = (process.argv[4] == "-t"); // Outputs only one image if set to true
 	else if(world.map == 8) mapImg = "bigsnowmap_HQ.jpg";
 	else if(world.map == 9) mapImg = "arkan_HQ.png";
 	else if(world.map == 10) mapImg = "rivers_HQ.png";
+	else if(world.map == 13) mapImg = "island.jpg";
 	else throw new Error("Unknown world.map=" + world.map);
 		
 		var imageType = mapImg.substring(mapImg.lastIndexOf(".")+1);
