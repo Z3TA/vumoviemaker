@@ -183,7 +183,7 @@ var TEST = (process.argv[4] == "-t"); // Outputs only one image if set to true
 	else if(world.map == 7) mapImg = "shatteredworlds_HQ.jpg";
 	else if(world.map == 8) mapImg = "bigsnowmap_HQ.jpg";
 	else if(world.map == 9) mapImg = "arkan_HQ.png";
-	else if(world.map == 10) mapImg = "rivers_HQ.png";
+	else if(world.map == 10) mapImg = "rivers_HQ.jpg";
 	else if(world.map == 13) mapImg = "island.jpg";
 	else throw new Error("Unknown world.map=" + world.map);
 		
